@@ -1,0 +1,80 @@
+*{
+    
+margin: 0px auto;
+padding: 0px;
+box-sizing: border-box;
+ font-size: 15px;
+
+}
+ body{
+    width: 100vw;
+    height: 100vh;
+   border: 1px solid blue;
+   display: flex;
+ 
+}
+.conteudo{
+width: 1440px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
+.container  .box-container{
+    width: 370px;
+    height:370px;
+    border: 1px solid red; 
+    border-radius: 20px  ; 
+   
+}
+.container  .box-container .box-logo{
+    width: 40px;
+    height: 40px;
+   border-radius: 50%; 
+   border: 1px solid red; 
+display: flex; 
+justify-content: center;
+align-items: center;
+left: 10px;
+}
+.container  .box-container  .box-logo  #logo{
+    padding-top: 40px;
+}
+.container  .box-container .foto-logo{
+    align-items: flex-start;
+}
+.container  .texto-container {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.container  .texto-container h1{
+    padding-bottom: 40px;
+}
+.box-container  #box-logo{
+   padding-top: 20px;
+}
+.icones-container{
+display: flex;
+justify-content: space-around;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.icones-container .box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid red; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+.botao{
+        width: 350px;
+        height: 40px;
+        border-radius: 22px;
+        border: 1px solid red; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
