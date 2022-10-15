@@ -1,5 +1,5 @@
 *{
-    
+   /* configurações gerais da pagina  */ 
 margin: 0px auto;
 padding: 0px;
 box-sizing: border-box;
@@ -7,6 +7,7 @@ box-sizing: border-box;
 
 }
  body{
+     /* tamanho da area para trabalho  */ 
     width: 100vw;
     height: 100vh;
    border: 1px solid blue;
@@ -14,21 +15,25 @@ box-sizing: border-box;
  
 }
 .conteudo{
+      /* tamanho da area para trabalho para configuração  */ 
 width: 1440px;
 height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
- 
+background-color: hsl(216, 12%, 8%);
 }
+ 
 .container  .box-container{
+      /* tamanho da tela para conteudo   */ 
     width: 370px;
     height:370px;
     border: 1px solid red; 
     border-radius: 20px  ; 
-   
+    background-color:   hsl(213, 19%, 18%);
 }
 .container  .box-container .box-logo{
+      /* local que vai receber o logo estrela   */ 
     width: 40px;
     height: 40px;
    border-radius: 50%; 
@@ -36,20 +41,23 @@ align-items: center;
 display: flex; 
 justify-content: center;
 align-items: center;
+}
  
-}
-.container  .box-container  .box-logo  #logo{
-    padding-top: 40px;
-}
 .container  .box-container .foto-logo{
     align-items: flex-start;
 }
 .container  .texto-container {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 15px;
 }
 .container  .texto-container h1{
+    /* cores do texto titulo */
     padding-bottom: 40px;
+    color : hsl(0, 0%, 100%);
+}
+.container  .texto-container p{
+    padding-bottom: 40px;
+    color :  hsl(217, 12%, 63%);
 }
 .box-container  #box-logo{
    padding-top: 20px;
@@ -57,8 +65,9 @@ align-items: center;
 .icones-container{
 display: flex;
 justify-content: space-around;
-padding-top: 40px;
+padding-top: 20px;
 padding-bottom: 40px;
+
 }
 .icones-container .box{
     width: 40px;
@@ -68,6 +77,7 @@ padding-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(216, 12%, 8%);
     }
 .botao{
         width: 350px;
