@@ -44,20 +44,34 @@ function mouseOverBotao(){
     document.getElementById(   'botao'  ).style.color=' orange'; 
     }
     function mouseOutBotao(){
-        document.getElementById( 'botao' ).style.backgroundColor= 'hsl(216, 12%, 8%)';
+        document.getElementById( 'botao' ).style.backgroundColor= ' orange';
         document.getElementById(   'botao'  ).style.color=' white'; 
     }
 
-     // configurando do botao SUMIT quando clicar alterando o estilo
+     // configurando do botao BT1 quando clicar alterando o estilo
 function mouseClickBt1(){
-    document.getElementById(   'box1' ).style.backgroundColor=' blue'; 
-    
+    document.getElementById(   'box1' ).style.backgroundColor=' orange';     
     } 
-
+   // configurando do botao BT2 quando clicar alterando o estilo
+   function mouseClickBt2(){
+    document.getElementById(   'box2' ).style.backgroundColor=' orange';     
+    } 
+      // configurando do botao BT3 quando clicar alterando o estilo
+   function mouseClickBt3(){
+    document.getElementById(   'box3' ).style.backgroundColor=' orange';     
+    } 
+       // configurando do botao BT4 quando clicar alterando o estilo
+   function mouseClickBt4(){
+    document.getElementById(   'box4' ).style.backgroundColor=' orange';     
+    } 
+        // configurando do botao BT5 quando clicar alterando o estilo
+   function mouseClickBt5(){
+    document.getElementById(   'box5' ).style.backgroundColor=' orange';     
+    } 
 
  // configurando do botao SUMIT quando clicar alterando o estilo
 function mouseClickBotao(){
-    document.getElementById(   'botao'  ).style.backgroundColor=' blue'; 
+    document.getElementById(   'botao'  ).style.backgroundColor=' orange'; 
     document.getElementById(   'botao'  ).style.color=' gray'; 
     } 
 

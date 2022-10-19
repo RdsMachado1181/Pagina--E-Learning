@@ -35,7 +35,7 @@ background-color: hsl(216, 12%, 8%);
     border: 1px solid red; 
     border-radius: 20px  ; 
     background-color:   hsl(213, 19%, 18%);
-    padding: 25px;
+    padding: 20px;
 }
 .container  .box-container .box-logo{
       /* local que vai receber o logo estrela   */ 
@@ -69,7 +69,7 @@ align-items: center;
     
 }
 .container  .texto-container p{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color :  hsl(218, 16%, 69%);
 
     color :  hsl(213, 4%, 47%);
@@ -81,10 +81,10 @@ align-items: center;
 display: flex;
 justify-content: space-around;
 padding-top: 20px;
-padding-bottom: 40px;
+padding-bottom: 35px;
 
 }
-.icones-container >div{
+.icones-container > a >button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -94,20 +94,20 @@ padding-bottom: 40px;
   align-items: center;
   background-color: hsl(216, 12%, 8%);
   cursor: pointer;
-  
+  border-style: none;
+text-decoration: none;
     }
-#botao{
+  div > #botao{
         width: 300px;
         height: 40px;
-        border-radius: 22px;
-        
+        border-radius: 22px;        
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: hsl(25, 97%, 53%);
-        color: hsl(0, 0%, 100%);
-        
+        color: hsl(0, 0%, 100%);        
         font-weight: 500;
+        border: 1px solid hsl(216, 12%, 8%);
         }
 /*
         .icones-container .box:hover{
