@@ -2,9 +2,11 @@
 
 
 // configurando do botao 1 a alteração do background.color quando passa  e retira o mouse por cima 
-function mouseOver1(){
-document.getElementById(   'box1'  ).style.backgroundColor=' hsl(213, 4%, 47%)'; 
-}
+function mouseOver1(){    
+        document.getElementById(   'box1'  ).style.backgroundColor=' hsl(213, 4%, 47%)'; 
+    
+    } 
+ // configurando do botao 1 a alteração do background.color quando passa  e retira o mouse por cima    
 function mouseOut1(){
     document.getElementById( 'box1' ).style.backgroundColor='hsl(216, 12%, 8%)';
 }
@@ -45,12 +47,14 @@ function mouseOverBotao(){
     }
     function mouseOutBotao(){
         document.getElementById( 'botao' ).style.backgroundColor= ' orange';
-        document.getElementById(   'botao'  ).style.color=' white'; 
+        document.getElementById(   'botao'  ).style.color=' white';
+       
     }
 
      // configurando do botao BT1 quando clicar alterando o estilo
 function mouseClickBt1(){
-    document.getElementById(   'box1' ).style.backgroundColor=' orange';     
+    document.getElementById(   'box1' ).style.backgroundColor=' orange'; 
+  
     } 
    // configurando do botao BT2 quando clicar alterando o estilo
    function mouseClickBt2(){

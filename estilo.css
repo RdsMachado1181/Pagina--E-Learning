@@ -31,8 +31,7 @@ background-color: hsl(216, 12%, 8%);
 .container  .box-container{
       /* tamanho da tela para conteudo   */ 
     width: 370px;
-    height:370px;
-    border: 1px solid red; 
+    height:370px; 
     border-radius: 20px  ; 
     background-color:   hsl(213, 19%, 18%);
     padding: 20px;
