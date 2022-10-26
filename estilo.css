@@ -3,7 +3,7 @@
 
 *{
    /* configurações gerais da pagina  */ 
-margin: 0px auto;
+margin: 0px auto; 
 padding: 0px;
 box-sizing: border-box;
  font-size: 15px;
@@ -13,6 +13,32 @@ box-sizing: border-box;
      /* tamanho da area para trabalho  */ 
     width: 100vw;
     height: 100vh;  
-   display: flex;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  background-color: rgba(70, 53, 53, 0.849);
 }
+.rating-container{
+   width: 350px;
+height: 350px;
+background-color: beige;
+position: relative;
+ border-radius: 35px;
+
+}
+.rating-container .icon-logo{
+  
+   position: relative;
+   top: 25px;
+   left: -105px;
+ }
+ .rating-container .icon-logo picture{
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ border-radius: 50%;
+background-color: hsl(213, 19%, 18%);
+border: none;
+ }
