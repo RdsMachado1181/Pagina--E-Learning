@@ -83,18 +83,23 @@ color :  hsl(218, 16%, 69%);
 .box-container  #box-logo{
 padding-top: 20px;
 }
-.radio-container  {
+.radio-container   {
  display: flex;
+ 
 justify-content: space-around;
 align-items: center;
 padding-top: 25px;
 padding-bottom: 25px;
 
 } 
+ 
  input[type="radio"]{
  display: none;
  }
- .radio-container  label{
+ .radio-container   label {
+width: 100%;
+ }
+ .radio-container    label {
  width: 40px;
  height: 40px; 
  border-radius: 50%;
@@ -104,14 +109,14 @@ padding-bottom: 25px;
  align-items: center;
  cursor: pointer;
  color: hsl(217, 12%, 63%);
- 
+ z-index: 0;
   } 
-  .radio-container  label:hover{
+  .radio-container   label:hover{
     background-color: hsl(217, 12%, 63%);
   }
   input[type='radio']:checked + label {
     background-color: orange;
-   
+  z-index: 3;
   }
  
 div > #botao{
@@ -125,6 +130,8 @@ div > #botao{
         color: hsl(0, 0%, 100%);        
         font-weight: 500;
         border: 1px solid hsl(216, 12%, 8%);
+        cursor: pointer;
+        
         }
 /*
         .icones-container .box:hover{

@@ -34,7 +34,9 @@ color: hsl(217, 12%, 63%);
  .container  .box-container >button {
   display: inline;
  }
-
+ .container  .box-container >button .texto{
+  display: block;
+ }
  .container  .box-container  h1{
 margin: 10px;
 font-size: 25px;

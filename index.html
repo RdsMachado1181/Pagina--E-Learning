@@ -40,12 +40,12 @@
         improve our offering! </p>
 
  </section>
-
+ <form method="get" action="Resultado.html" target="_blank" > 
  <div class="radio-container">
 
   <input type="radio" id="bt1" name="radio">
-  <label for="bt1"   > 1
- </label>
+  <label for="bt1"  >1
+  </label>
 
  <input type="radio" id="bt2" name="radio">
  <label for="bt2"  > 2
@@ -62,13 +62,13 @@
 <input type="radio" id="bt5" name="radio">
 <label for="bt5"  >5
 </label>
-
-</div>
-  <div> 
-    <button id="botao" type="submit" onmouseenter="mouseOverBotao()" onmouseout="mouseOutBotao()" onclick="mouseClickBotao()"   >SUMIT</button> 
-    
+</div> 
+  <div>
+    <button id="botao" type="submit"  onclick="mouseClickBotao()"    >SUMIT</button> 
+  </div> 
+</form>
   </div>
- 
+</form>
 </div>
 
  
@@ -78,7 +78,15 @@
     </main>
 </div> 
 
-<script src="index.js"></script>
+<script src="index.js">
+
+const mouseClickBotao = () =>{
+    if(  document.getElementsByTagName( 'input') ==  checked   ){
+       document.getElementById(  'label').style.color='blue';
+    }
+ 
+}
+</script>
  
 </body>
 </html>
