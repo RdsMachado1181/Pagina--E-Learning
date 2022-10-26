@@ -9,8 +9,7 @@ box-sizing: border-box;
  body{
      /* tamanho da area para trabalho  */ 
     width: 100vw;
-    height: 100vh;
-   border: 1px solid blue;
+    height: 100vh;  
    display: flex;
  background-color: rgba(70, 53, 53, 0.849);
 }
@@ -51,14 +50,13 @@ background-color: aquamarine;
 .container  .box-container .box-logo > picture  {
     width: 40px;
     height: 40px;
-   border-radius: 50%; 
-   border: 1px solid rgb(251, 255, 0); 
+   border-radius: 50%;  
 display: flex; 
 justify-content: center;
 align-items: center;
  margin-top: 2px;
 position: absolute;
- 
+ background-color: hsl(217, 12%, 63%);
 }
 .container  .box-container .foto-logo{
 align-items: flex-start;
