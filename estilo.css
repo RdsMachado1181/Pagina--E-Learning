@@ -54,9 +54,13 @@ background-color: aquamarine;
 display: flex; 
 justify-content: center;
 align-items: center;
- margin-top: 2px;
 position: absolute;
- background-color: hsl(217, 12%, 63%);
+ background-color: hsl(214, 5%, 28%);
+}
+.container  .box-container .box-logo > picture source {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 .container  .box-container .foto-logo{
 align-items: flex-start;
