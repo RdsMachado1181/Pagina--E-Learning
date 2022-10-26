@@ -21,7 +21,7 @@ background-color:  hsl(214, 7%, 21%);
 color: orange;
  
 border-radius: 20px;
-font-size: 15px;
+font-size: 12px;
  margin: 25px;
  border-color:  hsl(214, 7%, 21%) ;
  display: inline ;
@@ -35,7 +35,7 @@ color: hsl(217, 12%, 63%);
   display: inline;
  }
  .container  .box-container >button .texto{
-  display: block;
+  display: none;
  }
  .container  .box-container  h1{
 margin: 10px;
