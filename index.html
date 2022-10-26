@@ -15,6 +15,7 @@
     <title>Página E-Learning</title>
 </head>
 <body>
+    
     <div class="conteudo"> 
 
     <main class="container">
@@ -32,7 +33,7 @@
             
            
 <section class="texto-container">
-            <h1 id="text-h1" >How did we do?</h1>
+            <h1 id="tex=-h1" >How did we do?</h1>
 
             <p>Please let us know how we did with your support<br>
             rquest! All feedback is apreciated to help us<br>
@@ -40,21 +41,37 @@
 
  </section>
 
- <div class="icones-container">
+ <div class="radio-container">
 
-    <a href="Resultado1.html" target="_blank"> <button id="box1"  onmouseenter="mouseOver1()" onmouseout="mouseOut1()" onClick="mouseClickBt1()"  >1</button></a>
+  <input type="radio" id="bt1" name="radio">
+  <label for="bt1" id="btLabel" onmouseenter= "mouseOver1()"  > 1
+ </label>
 
-    <a href="Resultado2.html" target="_blank"> <button id="box2"  onmouseenter="mouseOver2()" onmouseout="mouseOut2()" onClick="mouseClickBt2()" >2</button></a>
+ <input type="radio" id="bt2" name="radio">
+ <label for="bt2"  id="btLabel2" onmouseenter="mouseOver2()" onmouseout="mouseOut2()"> 2
+</label>
+ 
+  <input type="radio" id="bt3" name="radio">
+ <label for="bt3"  id="btLabel3" onmouseenter="mouseOver3()" onmouseout="mouseOut3()">3
+</label>
 
-    <a href="Resultado3.html" target="_blank" > <button id="box3"  onmouseenter="mouseOver3()" onmouseout="mouseOut3()"  onClick="mouseClickBt3()">3</button></a>
+<input type="radio" id="bt4" name="radio">
+<label for="bt4"  id="btLabel4" onmouseenter="mouseOver4()" onmouseout="mouseOut4()">4
+</label>
 
-    <a href="Resultado4.html" target="_blank" > <button id="box4"  onmouseenter="mouseOver4()" onmouseout="mouseOut4()" onClick="mouseClickBt4()">4</button></a>
+<input type="radio" id="bt5" name="radio">
+<label for="bt5"  id="btLabel5" onmouseenter="mouseOver5()" onmouseout="mouseOut5()">5
+</label>
 
-    <a href="Resultado5.html" target="_blank" > <button id="box5"  onmouseenter="mouseOver5()" onmouseout="mouseOut5()" onClick="mouseClickBt5()">5</button> </a>
+</div>
+  <div> 
+    <button id="botao" type="submit" onmouseenter="mouseOverBotao()" onmouseout="mouseOutBotao()" onclick="mouseClickBotao()"   >SUMIT</button> 
     
-   
- </div>
- <button id="botao" onmouseenter="mouseOverBotao()" onmouseout="mouseOutBotao()" onclick="mouseClickBotao()"   >SUMIT</button>
+  </div>
+ 
+</div>
+
+ 
 
         </div>
    
@@ -62,6 +79,6 @@
 </div> 
 
 <script src="index.js"></script>
-<script src="resultado.js"></script>
+ 
 </body>
 </html>

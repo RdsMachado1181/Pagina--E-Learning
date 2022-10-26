@@ -14,7 +14,7 @@ box-sizing: border-box;
    display: flex;
  background-color: rgba(70, 53, 53, 0.849);
 }
-.container  .texto-container h1 , .icones-container .box , .botao{
+.container  .texto-container h1 , .radio-container .box ,div  .botao{
    
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,6 +26,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-color: hsl(216, 12%, 8%);
+display: flex;
+justify-content: center;
+align-items: center;
 }
  
 .container  .box-container{
@@ -36,6 +39,9 @@ background-color: hsl(216, 12%, 8%);
     background-color:   hsl(213, 19%, 18%);
     padding: 20px;
 }
+
+
+
 .container  .box-container .box-logo{
       /* local que vai receber o logo estrela   */ 
 background-color: aquamarine;
@@ -50,53 +56,62 @@ display: flex;
 justify-content: center;
 align-items: center;
  margin-top: 2px;
- position: absolute;
+position: absolute;
  left: 10px;
 }
 .container  .box-container .foto-logo{
-    align-items: flex-start;
+align-items: flex-start;
 }
 .container  .texto-container {
-    padding-top: 60px;
-    padding-left: 15px;
+padding-top: 60px;
+padding-left: 15px;
 }
 .container  .texto-container h1{
-    /* cores do texto titulo */
-    padding-bottom:20px;
-    color : hsl(0, 0%, 100%);
-    font-size: 25px;
+/* cores do texto titulo */
+padding-bottom:20px;
+color : hsl(0, 0%, 100%);
+font-size: 25px;
     
 }
 .container  .texto-container p{
-    padding-bottom: 10px;
-    color :  hsl(218, 16%, 69%);
+padding-bottom: 10px;
+color :  hsl(218, 16%, 69%);
 
-    color :  hsl(213, 4%, 47%);
-}
+    
+} 
 .box-container  #box-logo{
-   padding-top: 20px;
-}
-.icones-container{
-display: flex;
-justify-content: space-around;
 padding-top: 20px;
-padding-bottom: 35px;
-
 }
-.icones-container > a >button{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: darkgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(216, 12%, 8%);
-  cursor: pointer;
-  border-style: none;
-text-decoration: none;
-    }
-  div > #botao{
+.radio-container  {
+ display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 25px;
+padding-bottom: 25px;
+
+} 
+ input[type="radio"]{
+ display: none;
+ }
+ .radio-container  label{
+ width: 40px;
+ height: 40px; 
+ border-radius: 50%;
+ background-color: hsl(216, 12%, 8%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ color: hsl(217, 12%, 63%);
+ 
+  } 
+ 
+  input[type='radio']:checked + label {
+    background-color: orange;
+   
+  }
+ 
+div > #botao{
         width: 300px;
         height: 40px;
         border-radius: 22px;        
